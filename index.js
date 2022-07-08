@@ -21,8 +21,16 @@ console.log(patientName);
 
 //use let and const properly
 
+//when you use let then it works only inside of a function.
 let sum = 0;
 for (let i = 0; i < 10; i++) {
     sum = sum + i;
 }
-console.log(sum);
+console.log(i);
+
+//when you use var then it works all over the program.
+let sumOne = 0;
+for (var i = 0; i < 10; i++) {
+    sumOne = sumOne + i;
+}
+console.log(i);
