@@ -14,3 +14,15 @@ hero.name = ("Ayman Sadik");
 hero.age = 26;
 hero.phone = 987654;
 console.log("Last Hero info ", hero);
+
+let patientName = "Rohim Chacha";
+patientName = "Fatema Kkhala";
+console.log(patientName);
+
+//use let and const properly
+
+let sum = 0;
+for (let i = 0; i < 10; i++) {
+    sum = sum + i;
+}
+console.log(sum);
